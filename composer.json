@@ -2,8 +2,8 @@
     "name": "nicocau/wkhtmltopdf-amd64",
     "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
     "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
-    "license": "LGPL Version 3",
     "homepage": "http://wkhtmltopdf.org/",
+    "version": "1.0.0",
     "minimum-stability": "stable",
     "bin": [
         "bin/wkhtmltopdf-amd64"
