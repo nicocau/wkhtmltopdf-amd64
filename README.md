@@ -12,7 +12,7 @@ Binaries for __CentOS 7__, also installable with composer, can be found here: [g
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.4'.
+To install the latest version, use '0.12.6'.
 
 ### Packagist
 
@@ -24,7 +24,7 @@ Require the package for _i386_ with:
 
 And for _amd64_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.4"
+    php composer.phar require nicocau/wkhtmltopdf-amd64 "0.12.4"
 
 The binary will then be located at:
 
@@ -39,11 +39,11 @@ Also a symlink will be created in your configured bin/ folder, for example:
 You can use the path constant to easily locate the binary in the PHP codebase: 
 
 ``` php
-$path = \h4cc\WKHTMLToPDF\WKHTMLToPDF::PATH;
+$path = \nicocau\WKHTMLToPDF\WKHTMLToPDF::PATH;
 ```
 
 For realpath use following script
 
 ``` php
-$realpath = realpath(\h4cc\WKHTMLToPDF\WKHTMLToPDF::PATH);
+$realpath = realpath(\nicocau\WKHTMLToPDF\WKHTMLToPDF::PATH);
 ```
